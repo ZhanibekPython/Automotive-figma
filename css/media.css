@@ -1,0 +1,44 @@
+@media screen and (max-width: 1182px) {
+    body {
+        width: 100%;
+    }
+    .col-12 {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .logo, .services, .site-footer {
+        text-align: center;
+    }
+    .logo-menu {
+        margin-bottom: 15px;
+    }
+    .sell_car > div {
+        font-size: 45px;
+        text-align: center;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+    .sell_car > .sell_car_lorem {
+        text-align: center;
+        max-width: 600px;
+        font-size: 20px;
+        margin: 0 auto;
+        line-height: 25px;
+    }
+    .services-icons > div {
+        padding-bottom: 20px;
+    }
+    .services-texts > div {
+        padding-bottom: 20px;
+    }
+    .our-story, .site-footer {
+        height: 290px;
+    }
+    .story-button {
+        margin-top: 90px;
+    }
+    .pricing {
+        height: 1700px;
+    }
+}
