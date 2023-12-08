@@ -1,0 +1,257 @@
+/* Basic setings */
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: PT Serif;
+    src: url(../fonts/PTSerif-Regular.ttf);
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+}
+body, h1, h2, h3, ol, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+.head-box, .services, .our-story, .pricing, .site-footer {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.flex-sets {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Header */
+.head-box {
+    background-image: url(../img/header_background.png);
+    height: 680px;
+    padding: 39.37px 190px;
+}
+.logo-menu {
+    margin-bottom: 72.06px;
+}
+.nav {
+    align-items: center;
+    list-style: none;
+}
+.nav li {
+    padding: 15px;
+}
+.nav li:hover {
+    border-radius: 5px;
+    background: #130E27;
+    padding: 6px 15px;
+}
+.nav li:last-child {
+    padding-right: 0px;
+}
+.nav li a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.sell_car_blacktext {
+    color: #130E27;
+    font-family: Montserrat, sans-serif;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: -1.8px;
+}
+.sell_car_whitetext {
+    color: #FFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: -1.8px;
+}
+.sell_car_lorem {
+    color: #FFF;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.4px;
+}
+.sell_car_whitetext {
+    margin-bottom: 50px;
+}
+.sell_car_lorem {
+    max-width: 494px;
+    max-height: 84px;
+}
+
+/* Our services section */
+.services {
+    padding: 50px 190px 70px;
+}
+.service-title {
+    color: #C62314;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+    margin-bottom: 82.13px;
+}
+.services-icons {
+    margin-bottom: 37px;
+}
+.services-icons > div {
+    max-width: 165px;
+}
+.services-texts > div {
+    max-width: 165px;
+    color: #161616;
+    text-align: center;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.6px;
+}
+
+/* Our story */
+.our-story {
+    background: #130E27;
+    height: 124px;
+    padding: 34px 190px;
+}
+.story-body {
+    align-items: center;
+}
+.story_lorem {
+    max-width: 611px;
+    height: 56px;
+    color: #FFF;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.4px;
+}
+.story-button {
+    padding: 19px 69px;
+    border-radius: 5px;
+    background: #C62314;
+}
+.story-button > a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* Pricing section */
+.pricing {
+    background: #EFEFEF;
+    height: 691px;
+    padding: 50px 190px 70px;
+}
+.pricing-title {
+    padding-bottom: 50px;
+    text-align: center;
+    color: #130E27;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+}
+.card {
+    width: 340px;
+    height: 460px;
+    border-radius: 5px;
+    background: #FFF;
+    text-align: center;
+     
+}
+.pricing-text {
+    color: #161616;
+    text-align: center;
+    font-family: PT Serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 127.273% */
+    letter-spacing: -0.66px;
+    margin-bottom: 40px;
+    padding-top: 35px;
+}
+.pricing-text2 {
+    color: #161616;
+    text-align: center;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.6px;
+    margin-bottom: 40px;
+}
+.pricing-cost {
+    color: #C62314;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+}
+.signup-button {
+    padding: 19px 69px;
+    border-radius: 5px;
+    background: #130E27;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.signup-button:hover {
+    background: #C62314;
+}
+
+/* Footer section */
+.site-footer {
+    height: 190px;
+    padding: 0px 190px;
+    background: #130E27;
+    align-items: center;
+} 
+.footer_text {
+    color: #FFF;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.4px;
+}
+.design_coon_text {
+    color: #C62314;
+}
