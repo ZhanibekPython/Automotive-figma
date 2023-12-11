@@ -109,13 +109,11 @@ body, h1, h2, h3, ol, ul, li, p {
     letter-spacing: -1px;
     margin-bottom: 82.13px;
 }
-.services-icons {
-    margin-bottom: 37px;
-}
-.services-icons > div {
-    max-width: 165px;
-}
-.services-texts > div {
+
+.services-icons div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 165px;
     color: #161616;
     text-align: center;
@@ -125,6 +123,11 @@ body, h1, h2, h3, ol, ul, li, p {
     font-weight: 400;
     line-height: 28px; /* 140% */
     letter-spacing: -0.6px;
+}
+.services-icons img {
+    width: 165px;
+    height: 180px;
+    padding-bottom: 30px;
 }
 
 /* Our story */
